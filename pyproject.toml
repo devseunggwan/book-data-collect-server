@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "book-data-collect-server"
+version = "0.1.0"
+description = ""
+authors = ["devseunggwan <yanhis97531@gmail.com>"]
+readme = "README.md"
+packages = [{include = "book_data_collect_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
