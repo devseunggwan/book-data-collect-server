@@ -4,7 +4,7 @@ from odmantic import Model
 class BookModel(Model):
     keyword: str
     publisher: str
-    price: int
+    discount: int
     image: str
 
     class Config:
